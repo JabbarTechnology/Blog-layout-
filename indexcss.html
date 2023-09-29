@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Portal</title>
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+                background: #f1f1f1;
+            }
+            /* Header style */
+            .header h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+            .header span {
+                color: blue;
+            }
+            /* Top Nav */
+            .topnav {
+                overflow: hidden;
+                background-color: #333333;
+            }
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .topnav a:hover {
+                background-color: #dddddd;
+                color: #333333;
+            }
+            .topnav input {
+                float: right;
+                display: block;
+                text-align: center;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            /* Main contant */
+
+            .row h2 {
+                font-family: Cambria;
+            }
+
+            .leftcolumn {
+                float: left;
+                width: 75%;
+            }
+
+            .rightcolumn {
+                float: right;
+                width: 25%;
+                padding-left: 20px;
+            }
+
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .fakeimg {
+                background-color: blueviolet;
+                width: 100%;
+                padding: 20px;
+                margin: 10px;
+            }
+
+            .footer {
+                border: 3px solid #77BB22;
+                padding: 20px;
+                background-color: #333333;
+                color: #dddddd;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Student Portal <span> NBU</span></h1>
+        </div>
+        <div class="topnav">
+            <a href="#Home">Home</a>
+            <a href="#News">News</a>
+            <a href="#Contact">Contact</a>
+            <a href="#About">About</a>
+
+            <input type="button" id="btnSearch" name="btnSearch" value="Serach" />
+            <input type="text" id="txtSerach" name="txtSerach" placeholder="Serach..." />
+            <a href="#Login" style="float: right;">Login</a>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>Title 1</h2>
+                    <h5>Title 1 description, Oct 6, 2020</h5>
+                    <div class="fakeimg" style="height: 200px;">Image 1</div>
+                    <p>Some text ....</p>
+                    <p>Anything here you could add. here you could add, 
+                        here you could add, here you could add, 
+                        here you could add, here you could add. 
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Title 2</h2>
+                    <h5>Title 2 description, Oct 6, 2020</h5>
+                    <div class="fakeimg" style="height: 200px;">Image 2</div>
+                    <p>Some text ....</p>
+                    <p>Anything here you could add. here you could add, 
+                        here you could add, here you could add, 
+                        here you could add, here you could add. 
+                    </p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>Post</h2>
+                    <div class="fakeimg" style="height: 100px;">Image 3</div>
+                    <p>Some text about the post</p>
+                </div>
+                <div class="card">
+                    <h2>Populer Post</h2>
+                    <div class="fakeimg" style="height: 100px;">Image 4</div>
+                    <div class="fakeimg" style="height: 100px;">Image 5</div>
+                    <div class="fakeimg" style="height: 100px;">Image 6</div>
+                </div>
+
+                <div class="card">
+                    <h2>Follow Me</h2>
+                    <p>Some text goes here ...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h2>
+                <p>Copyright &copy; Student-NBU</p>
+            </h2>
+        </div>
+
+
+
+    </body>
+</html>
